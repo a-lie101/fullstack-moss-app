@@ -16,7 +16,7 @@ import {
 import SignalGraphView from './signal-graph-full';
 
 export default function SignalGraphNode({ id }: { id?: string }) {
-    const { renderData } = useNodeData(20, 10);
+    const { renderData } = useNodeData(200, 10);
 
     const processedData = renderData;
     const reactFlowInstance = useReactFlow();
